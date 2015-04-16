@@ -5,7 +5,7 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
 			
-				Contact form!!lukjyfkuyfgk,yuglkyugfkulygf
+				Contact form!!
 			
 		</div>
 	</div>
