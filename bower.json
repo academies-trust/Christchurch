@@ -1,0 +1,6 @@
+{
+	"name": "christchurch"
+	"dependencies":{
+		"font-awesome": "~4.2.0"
+	}
+}
