@@ -1,9 +1,9 @@
+<div class="homepage_v2">
 @extends('app')
 @section('content')
 @include('partials.twitter')
 @include('partials.news_events')
 
-<div class="home_notice">
    <div class="container">
       <div class="row">
          <div class="col-md-7 text_center">
@@ -18,8 +18,6 @@
          </div>
       </div>
    </div>
-</div>
-<div class="about">
    <div class="container">
       <div class="row">
          <div class="col-md-8 col-md-offset-2">
@@ -33,7 +31,6 @@
       </div>
    </div>
 </div>
-<div class="contact">
    <div class="container">
       <div class="row">
          <div class="col-md-12 text_center">
@@ -58,8 +55,7 @@
       </div>
    </div>
    <img src="{{url()}}/img/map.png"> 
-</div>
-<div class="home_notice">
+
    <div class="container">
       <div class="row">
          <div class="col-md-5 text_center">
@@ -72,8 +68,6 @@
          </div>
       </div>
    </div>
-</div>
-<div class="international">
    <div class="container">
       <div class="row">
          <div class="col-md-8 col-md-offset-2">
@@ -88,7 +82,6 @@
       </div>
    </div>
 </div>
-
 @endsection
 
 @section('scripts')

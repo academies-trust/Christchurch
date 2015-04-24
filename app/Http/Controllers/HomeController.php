@@ -28,6 +28,12 @@ class HomeController extends Controller {
 		return view('home',compact('twitter'));
 	}
 
+	public function home_v2()
+	{
+		$twitter = $this->getTweets();
+		return view('home_v2',compact('twitter'));
+	}
+
 	public function goats()
 	{
 		return view('goat');
@@ -36,6 +42,14 @@ class HomeController extends Controller {
 	public function contact()
 	{
 		return view('contact');
+	}
+	public function staff()
+	{
+		return view('about.staff');
+	}
+	public function curriculum()
+	{
+		return view('learning.curriculum');
 	}
 
 	public function getTweets()

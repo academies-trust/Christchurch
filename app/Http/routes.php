@@ -13,10 +13,17 @@
 
 Route::get('/', 'HomeController@index');
 
+Route::get('home_v2', 'HomeController@home_v2');
+
 Route::get('goats', 'HomeController@goats');
 
 Route::get('contact', 'HomeController@contact');
 
+Route::get('about/staff', 'HomeController@staff');
+
+Route::get('learning/curriculum','HomeController@curriculum');
+
 Route::get('img/{path}', function (League\Glide\Server $server, Illuminate\Http\Request $request) {
 	$server->outputImage($request);
 })->where('path', '.+');
+

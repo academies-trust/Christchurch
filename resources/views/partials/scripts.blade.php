@@ -13,5 +13,4 @@
 		$(".news").removeClass("hidden")
 	});
 	
-
 </script>

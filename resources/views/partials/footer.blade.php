@@ -24,7 +24,7 @@
 </footer>
 <div class="footer_nav"><div class="container">
 	<div class="row">
-		<div class="col-md-6 col-md-offset-3">
+		<div class="col-md-6 ">
 <nav id="footerNav">
 			<ul>
 				<a href="http://10.188.0.45/external/christchurch_v2/resources/docs/prospectus.pdf"><li>Prospectus</li></a>
